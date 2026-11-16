@@ -8,6 +8,7 @@ class LibraryOutput(BaseModel):
     source:str
     endmember_count:int
     sample_count:int
+    contamination_group_count:int=0
     supported:bool
     condition_number:float|None
     reason:str
